@@ -1,4 +1,4 @@
-package common 
+package common.communication
 
 // Base class for all communication channels
 abstract class CommunicationHelper {
