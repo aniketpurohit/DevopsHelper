@@ -11,7 +11,6 @@ def loadConfigFile(String configFilePath) {
     return config
 }
 
-
 def makeDirectory(Map directory) {
     if (directory.parent) {  // Check if parent is not null or empty
         for (child in directory.children) {
